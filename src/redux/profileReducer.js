@@ -6,7 +6,7 @@ let initialState =  { posts: [
   {id: 2, post: "It's my first post?", licesCount:43},
   {id: 3, post: "It's my first post?", licesCount:43}
 ],
-newPostText: "it-kama"
+newPostText: "Hello"
 };
 
 const profileReducer = (state = initialState, action) => {
